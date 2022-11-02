@@ -16,4 +16,5 @@
          * docker-compose up -d
     6. Check the status of service.
          * docker-compose ps
+    ![Screenshot](./Scrennshot/docker-ps.png)
   

@@ -1,3 +1,5 @@
+![Grafana](Screenshot/logo-horizontal.png)
+![Grafana](Screenshot/prometheus-logo.svg)         
 <div>
     <image src=https://img.shields.io/badge/Grafana-brightgreen></image>
     <image src="https://img.shields.io/badge/Prometheus-ff69b4"></image>
@@ -5,6 +7,9 @@
 </div>
 
 # Monitoring a Linux host using Prometheus and node_exporter
+## Prerequisites
+* Docker 
+  * Installation steps will now be reachable at  [Docker Install](https://docs.docker.com/engine/install/)
 
 ##  How to run it locally
 
@@ -18,16 +23,17 @@
          * docker-compose ps
           
          ![Check the status](Screenshot/docker-status.png)
-   7. To access Prometheus [http://localhost:9090](http://localhost:9090) 
+   7. Prometheus will now be reachable at  [http://localhost:9090](http://localhost:9090) 
    
          ![Prometheus](Screenshot/prometheus.png)
-   9. To access Grafana login page [http://localhost:3000](http://localhost:3000)
+       9. Grafana will now be reachable at  [http://localhost:3000](http://localhost:3000)
+         * By default Username and Password will be admin
    
          ![Grafana Login](Screenshot/Grafana.png)
          
-         * By default Username and Password will be admin
+        
 
-  10. To access Node_exporter [http://localhost:9100](http://localhost:9100/metrics)
+  10. Node_exporter will now be reachable at [http://localhost:9100](http://localhost:9100/metrics)
    
          ![Node Exporter](Screenshot/Node-exporter.png)
     

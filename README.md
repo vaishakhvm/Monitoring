@@ -26,5 +26,9 @@
          ![Grafana Login](Screenshot/Grafana.png)
          
          * By default Username and Password will be admin
+
+  10. To access Node_exporter [http://localhost:9100](http://localhost:9100/metrics)
+   
+         ![Node Exporter](Screenshot/Node-exporter.png)
     
   

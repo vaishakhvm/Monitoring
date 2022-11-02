@@ -6,7 +6,7 @@
     <image src="https://img.shields.io/badge/Node_exporter-orange"></image>
 </div>
 
-# Monitoring a Linux host using Prometheus and node_exporter
+# Monitoring a Linux host using Grafana,Prometheus and Node_exporter
 ## Prerequisites
 * Docker 
   * Installation steps will now be reachable at  [Docker Install](https://docs.docker.com/engine/install/)
